@@ -1,0 +1,14 @@
+.segmented-control {
+  @include clearfix;
+  list-style-type: none;
+  margin-left: 0;
+
+  li {
+    width: 25%;
+    float: left;
+
+    &:hover {
+      background: #eee;
+    }
+  }
+}
