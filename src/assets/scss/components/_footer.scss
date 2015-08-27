@@ -1,0 +1,21 @@
+.footer {
+  background: $primary-color;
+  padding: 2rem;
+  color: $white;
+
+  .footer-heading {
+    color: $white;
+
+    a {
+      color: $white;
+    }
+  }
+
+  .footer-nav {
+    list-style: none;
+  }
+
+  li a {
+    color: $white;
+  }
+}

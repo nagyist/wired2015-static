@@ -1,0 +1,13 @@
+.sub-footer {
+  background: $secondary-color;
+  padding: 2rem;
+}
+
+.footer-inline-nav {
+  @include inline-list;
+  margin: 0;
+
+  a {
+    color: $white;
+  }
+}
