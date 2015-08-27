@@ -21,7 +21,7 @@
       text-align: right;
       background-color: white;
     }
-    
+
     &:hover {
       .main-nav-sub {
         display: block;
@@ -31,8 +31,8 @@
 }
 
 .secondary-nav {
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: $column-gutter/2;
   position: absolute;
   list-style: none;
   font-size: 14px;
