@@ -1,0 +1,48 @@
+.main-nav {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  
+  > li {
+    display: block;
+    float: left;
+    position:relative;
+    top: 50px;
+    padding-left: 20px;
+    
+    .main-nav-sub {
+      list-style: none;
+      position: absolute;
+      padding: 0 20px 20px 20px;
+      right: 0;
+      z-index: 999;
+      display: none;
+      white-space: nowrap;
+      text-align: right;
+      background-color: white;
+    }
+    
+    &:hover {
+      .main-nav-sub {
+        display: block;
+      }
+    } 
+  }
+}
+
+.secondary-nav {
+  top: 0;
+  right: 0;
+  position: absolute;
+  list-style: none;
+  font-size: 14px;
+  
+  li {
+    display: inline-block;
+    padding-left: 20px;
+    a {
+      color: #ccc;
+    }
+  }
+}
+
