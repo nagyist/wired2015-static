@@ -1,0 +1,24 @@
+.content-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.content-list-item {
+  @include grid-row(nest);
+}
+
+.content-list-item-image {
+  @include grid-column;
+
+  @media #{$medium-up} {
+    width: grid-calc(4, 12);
+  }
+}
+
+.content-list-item-text {
+  @include grid-column;
+
+  @media #{$medium-up} {
+    width: grid-calc(8, 12);
+  }
+}
