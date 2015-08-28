@@ -1,9 +1,35 @@
-.number-list {
-  counter-reset: values;
+body {
+  counter-reset: section;
+}
+
+/* position list chunks side by side */
+.number-list-wrapper {
+  float: left;
+}
+
+.number-list{
+  list-style: none;
+  width: 30rem;
+  @media #{$small-only} { 
+    width: 100%;
+    margin-left: 0;
+  }
   li {
-  counter-increments: values;
-  content: counter(values);
-  background-color: purple;
-  color: white;
+    margin-bottom: 2rem;
+  }
+  li::before {
+    counter-increment: section;               
+    content: counter(section) " ";
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    background-color: #232323;
+    position: absolute;
+    font-size: 1.85rem;
+    text-align: center;
+  }
+  span {
+    padding-left: 4rem;
+    display: block;
   }
 }
