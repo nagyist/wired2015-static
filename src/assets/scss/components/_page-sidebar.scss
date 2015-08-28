@@ -1,3 +1,9 @@
 .page-sidebar {
-  top: 4rem;
+  a {
+    text-decoration: underline;
+    color: white;
+    &:hover {
+      color: darken(white, 10%);
+    }
+  }
 }
