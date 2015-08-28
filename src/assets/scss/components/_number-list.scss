@@ -1,0 +1,7 @@
+.number-list {
+  counter-reset: values;
+  li {
+  counter-increments: values;
+  content: counter(values);
+  }
+}
