@@ -109,13 +109,17 @@
 .main-nav-sub {
   list-style: none;
   position: absolute;
-  right: 0;
+  left: -20px;
   z-index: 999;
   display: none;
   white-space: nowrap;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 5px 10px rgba(black, 0.25);
+
+  @media #{$large-up} {
+    right: 20px;
+  }
 
   li a {
     display: block;
