@@ -1,9 +1,11 @@
 .media {
   @include grid-row(nest);
+  padding-bottom: 4rem;
 }
 
 .media-image {
   @include grid-column;
+  padding-bottom: 1rem;
 
   @media #{$medium-up} {
     width: grid-calc(4, 12);
