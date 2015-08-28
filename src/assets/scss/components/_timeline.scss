@@ -43,6 +43,7 @@
 		position: relative;
 		padding: 25px;
 		color: #fff;
+		text-align: right;
 		strong {
 			display: block;
 
@@ -57,14 +58,14 @@
 			background: #69c4d9;
 			display: inline-block;
 			position: relative;
-			left: 100%;
-			margin-left: 8px;
+			left: 0;
+			margin-right: -33px;
 			top:0;
 		}
 
 		&:nth-child(even) {
 			left: 50%;
-
+			text-align: left;
 			&:before {
 				left: 0;
 				top:0;
