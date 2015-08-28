@@ -118,6 +118,7 @@
   box-shadow: 0 5px 10px rgba(black, 0.25);
 
   @media #{$large-up} {
+    left: auto;
     right: 20px;
   }
 
