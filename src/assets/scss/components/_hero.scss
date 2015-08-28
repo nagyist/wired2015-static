@@ -10,6 +10,16 @@
 
   @media #{$large-up} {
     height: 470px;
+
+    &::after {
+      height: 531px;
+      width: 50%;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      background: black;
+      content: '';
+    }
   }
 
   .column:first-child {
@@ -76,6 +86,7 @@
     transform: skew(-2deg);
     width: 470px;
     top: 14px;
+    z-index: 1;
   }
 
   @media #{$large-up} {
