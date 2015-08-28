@@ -4,11 +4,24 @@
   margin-left: 0;
 
   li {
-    width: 25%;
-    float: left;
+    display: inline-block;
+  }
 
-    &:hover {
-      background: #eee;
-    }
+  input {
+    position: absolute;
+    left: -9999px;
+  }
+
+  label {
+    display: block;
+    background: #eee;
+    padding: 10px 16px;
+    font-size: rem-calc(24);
+    margin: 0 !important;
+  }
+
+  input:checked + label {
+    background: #a2bc5c;
+    color: white;
   }
 }
