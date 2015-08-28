@@ -4,7 +4,6 @@
   color: lighten(#333235, 45%);
 
   .footer-heading {
-    font-family: "Open-sans";
     color: $white;
     font-size: 1.5rem;
 
@@ -17,7 +16,6 @@
     font-style: normal;
     font-size: 1rem;
     font-weight: 100;
-    font-family: "Open-sans";
   }
 
   .footer-nav {
@@ -35,10 +33,16 @@
     font-weight: 100;
     font-size: 0.875rem;
   }
+
+  .footer-addresses {
+    border-bottom: 1px solid lighten(#333235, 25%);
+    margin-bottom: 1.8rem;
+  }
   
   @media #{$large-up} {
     .footer-addresses {
       border-right: 1px solid lighten(#333235, 25%);
+      border-bottom: none;
     }
   }
 
