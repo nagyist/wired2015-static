@@ -1,6 +1,10 @@
 .media {
   @include grid-row(nest);
   padding-bottom: 4rem;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .media-image {
@@ -18,7 +22,7 @@
   h4 {
     font-weight: 600;
     font-size: 2rem;
-    margin: 0 0 1.2rem;
+    margin: 0 0 0.5rem;
   }
 
   @media #{$medium-up} {

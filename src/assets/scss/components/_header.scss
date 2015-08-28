@@ -16,7 +16,9 @@
 
     @media #{$medium-up} {
       margin-top: -3px; // Aligns the buttons with the menu text
+    }
 
+    @media #{$large-up} {
       &:last-of-type {
         margin-left: 25px;
       }
@@ -30,11 +32,16 @@
   display: block;
 
   @media #{$medium-up} {
-    width: 135px;
+    width: 115px;
     position: absolute;
-    bottom: 28px;
+    bottom: 52px;
     left: ($column-gutter / 2);
     margin: 0;
+  }
+
+  @media #{$large-up} {
+    width: 135px;
+    bottom: 28px;
   }
 
   img {
@@ -47,6 +54,10 @@
 .header .button {
   @media #{$medium-up} {
     position: relative;
+    top: 97px;
+  }
+
+  @media #{$large-up} {
     top: 90px;
   }
 }
@@ -56,12 +67,23 @@
   list-style: none;
   float: right;
   font-size: rem-calc(14);
+  margin-left: 0;
+  float: left;
+
+  @media #{$large-up} {
+    float: right;
+  }
   
   > li {
     display: block;
     float: left;
-    padding-left: 20px;
+    padding-right: 20px;
     position: relative;
+
+    > li {
+      padding-right: 0;
+      padding-left: 20px;
+    }
 
     > a {
       color: black;
@@ -87,13 +109,18 @@
 .main-nav-sub {
   list-style: none;
   position: absolute;
-  right: 0;
+  left: -20px;
   z-index: 999;
   display: none;
   white-space: nowrap;
   background-color: white;
   border: 1px solid #ccc;
   box-shadow: 0 5px 10px rgba(black, 0.25);
+
+  @media #{$large-up} {
+    left: auto;
+    right: 20px;
+  }
 
   li a {
     display: block;

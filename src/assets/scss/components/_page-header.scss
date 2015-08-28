@@ -1,12 +1,20 @@
 .page-header {
   background: linear-gradient(36deg, #56b1cf, #8dd3e6);
-  padding-bottom: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+  position: relative;
+
+  @media #{$medium-up} {
+    height: 247px;
+    margin-bottom: 5rem;
+  }
+
+  .column {
+    position: static;
+  }
 
   h1 {
     transform: rotate(-2deg);
     color: white;
-    margin-top: 4rem;
     margin-bottom: 0.5rem;
   }
 
@@ -22,16 +30,29 @@
 
 .page-header-text {
   text-align: center;
-  padding-right: 550px;
-  float: left;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  @media #{$medium-up} {
+    margin: 0;
+    padding-right: 410px;  
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 .page-header-image {
-  width: 550px;
+  height: 275px;
   position: absolute;
   top: 0;
   left: 55%;
   transform: skew(-2deg);
+  display: none;
+
+  @media #{$medium-up} {
+    display: block;
+  }
 }
 
 .page-header-nav {

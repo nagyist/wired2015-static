@@ -1,0 +1,9 @@
+.number-list {
+  counter-reset: values;
+  li {
+  counter-increments: values;
+  content: counter(values);
+  background-color: purple;
+  color: white;
+  }
+}

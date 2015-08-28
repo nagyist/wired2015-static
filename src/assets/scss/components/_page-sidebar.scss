@@ -1,7 +1,13 @@
 .page-sidebar {
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+
   a {
     text-decoration: underline;
     color: white;
+    
     &:hover {
       color: darken(white, 10%);
     }
