@@ -1,5 +1,6 @@
 .media {
   @include grid-row(nest);
+  margin-bottom: 1.8rem;
 }
 
 .media-image {
@@ -16,7 +17,7 @@
   h4 {
     font-weight: 600;
     font-size: 2rem;
-    margin-top: 0;
+    margin: 0 0 1.2rem;
   }
 
   @media #{$medium-up} {
