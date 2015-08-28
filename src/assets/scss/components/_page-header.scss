@@ -1,44 +1,68 @@
 .page-header {
-  text-align: center;
-  background: url('https://placehold.it/1400x400?text=.jpg') no-repeat center center;
-  background-size: cover;
-  padding: 4rem;
-  
-  .page-header-title {
-    
+  background: linear-gradient(36deg, #56b1cf, #8dd3e6);
+  padding-bottom: 4rem;
+
+  h1 {
+    transform: rotate(-2deg);
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    width: 75%;
+    margin-left: 12.5%;
   }
 }
 
+.page-header-text {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.page-header-image {
+  width: 45%;
+  position: absolute;
+  top: 0;
+  left: 55%;
+  transform: skew(-2deg);
+}
+
 .page-header-nav {
-  float: none;
-  position: relative;
-  top: 4rem;
+  clear: both;
   text-align: center;
   margin-bottom: 0;
+  padding-left: ($column-gutter / 2);
+  padding-right: ($column-gutter / 2);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 
   li {
-    float: none;
     display: inline-block;
+  }
 
-    a {
-      padding: 0.9rem 1rem 0.75rem;
-      font-size: 0.7rem;
-      color: #fff;
-      text-transform: uppercase;
-      display: block;
-      font-weight: bold;
-      letter-spacing: 1px;
+  a {
+    padding: 0.9rem 1rem 0.75rem;
+    font-size: 0.7rem;
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1px;
 
-      &.is-active {
-        background: #333;
-        color: $white;
-      }
-
-      &:hover {
-        background: #333;
-        color: $white;
-        transition: all .25s ease-in-out;
-      }
+    &:hover {
+      background: #eee;
+      color: black;
     }
+  }
+
+  .is-active a {
+    background: black;
+    color: white;
   }
 }
