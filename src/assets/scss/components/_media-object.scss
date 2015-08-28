@@ -1,13 +1,8 @@
-.content-list {
-  list-style-type: none;
-  margin-left: 0;
-}
-
-.content-list-item {
+.media {
   @include grid-row(nest);
 }
 
-.content-list-item-image {
+.media-image {
   @include grid-column;
 
   @media #{$medium-up} {
@@ -15,7 +10,7 @@
   }
 }
 
-.content-list-item-text {
+.media-text {
   @include grid-column;
 
   @media #{$medium-up} {
