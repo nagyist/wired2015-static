@@ -1,24 +1,62 @@
+.header {
+  height: 136px;
+
+  .row, .column {
+    height: 100%;
+  }
+
+  .button {
+    float: right;
+    padding: 5px 10px;
+    margin-top: -3px; // Aligns the buttons with the nav
+
+    &:last-of-type {
+      margin-left: 25px;
+    }
+  }
+}
+
+.header-logo {
+  width: 135px;
+  position: absolute;
+  bottom: 28px;
+  left: ($column-gutter / 2);
+
+  img {
+    width: 100%;
+  }
+}
+
+// Aligns the text with the logo
+.main-nav,
+.header .button {
+  position: relative;
+  top: 90px;
+}
+
 .main-nav {
+  @include clearfix;
   list-style: none;
-  display: inline-block;
   float: right;
+  font-size: rem-calc(14);
   
   > li {
     display: block;
     float: left;
-    position:relative;
-    top: 50px;
     padding-left: 20px;
-    
-    .main-nav-sub {
-      list-style: none;
-      position: absolute;
-      padding: 0 20px 20px 20px;
-      right: 0;
-      z-index: 999;
-      display: none;
-      white-space: nowrap;
-      background-color: white;
+    position: relative;
+
+    > a {
+      color: black;
+      font-weight: bold;
+
+      &::after {
+        @include css-triangle(4px, black, top);
+        float: right;
+        position: relative;
+        top: 9px;
+        margin-left: 5px;
+      }
     }
 
     &:hover {
@@ -29,19 +67,45 @@
   }
 }
 
+.main-nav-sub {
+  list-style: none;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  display: none;
+  white-space: nowrap;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 10px rgba(black, 0.25);
+
+  li a {
+    display: block;
+    padding: 5px 10px;
+    color: black;
+    font-size: rem-calc(14);
+
+    &:hover {
+      background: #eee;
+      color: $primary-color;
+    }
+  }
+}
+
 .secondary-nav {
-  top: 10px;
-  right: $column-gutter/2;
+  top: 35px;
+  right: 35px;
   position: absolute;
   list-style: none;
-  font-size: 14px;
+  font-size: rem-calc(14);
+  font-weight: bold;
   
   li {
     display: inline-block;
-    padding-left: 20px;
-    a {
-      color: #ccc;
-    }
+    padding-left: 35px;
+  }
+
+  a {
+    color: #b3b3b3;
   }
 }
 
