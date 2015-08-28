@@ -1,9 +1,5 @@
 @import 'settings';
 
-@import 'components/content-list';
-@import 'components/footer';
-@import 'components/sub-footer';
-
 @import
   "foundation/components/accordion",
   "foundation/components/alert-boxes",
@@ -41,8 +37,9 @@
   "foundation/components/offcanvas",
   "foundation/components/visibility";
 
-@import 'components/content-list';
-@import 'components/header';
 @import 'components/callout';
 @import 'components/content-list';
+@import 'components/footer';
+@import 'components/header';
 @import 'components/segmented-control';
+@import 'components/sub-footer';
