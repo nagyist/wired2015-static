@@ -1,6 +1,10 @@
 .media {
   @include grid-row(nest);
   padding-bottom: 4rem;
+
+  p {
+    margin-bottom: 0.5rem;
+  }
 }
 
 .media-image {
