@@ -6,8 +6,4 @@
 .footer-inline-nav {
   @include inline-list;
   margin: 0;
-
-  a {
-    color: $white;
-  }
 }
