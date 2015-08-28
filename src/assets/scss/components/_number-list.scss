@@ -10,9 +10,9 @@ body {
 .number-list {
   list-style: none;
   width: 100%;
+  margin-left: 0;
   @media #{$large-up} { 
     width: 33rem;
-    margin-left: 0;
   }
   li {
     margin-bottom: 2rem;
