@@ -27,7 +27,7 @@
 }
 
 .header-logo {
-  width: 100px;
+  width: 75px;
   margin: 10px auto 10px auto;
   display: block;
 
@@ -154,7 +154,9 @@
 }
 
 .left-off-canvas-toggle {
-  float: left;
+  position: absolute;
+  left: 10px;
+  top: 18px;
   font-weight: bold;
   margin-top: 3px;
 
