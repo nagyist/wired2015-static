@@ -90,6 +90,7 @@
 	background: -o-linear-gradient(0, #91aa49 0%,#b0c674 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(0, #91aa49 0%,#b0c674 100%); /* IE10+ */
 	background: linear-gradient(0, #91aa49 0%,#b0c674 100%); /* W3C */
+	padding-bottom: 150px;
 
 	&::before {
 		content: '';
