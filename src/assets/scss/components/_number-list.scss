@@ -7,11 +7,11 @@ body {
   float: left;
 }
 
-.number-list{
+.number-list {
   list-style: none;
-  width: 30rem;
-  @media #{$small-only} { 
-    width: 100%;
+  width: 100%;
+  @media #{$large-up} { 
+    width: 33rem;
     margin-left: 0;
   }
   li {
