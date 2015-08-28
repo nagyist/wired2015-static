@@ -1,7 +1,7 @@
 .footer {
   background: #333235;
   padding-top: 1rem;
-  color: lighten(#333235, 45%);
+  color: $white;
 
   .footer-heading {
     color: $white;
@@ -29,7 +29,7 @@
   }
 
   li a {
-    color: lighten(#333235, 45%);
+    color: $white;
     font-weight: 100;
     font-size: 0.8rem;
   }
