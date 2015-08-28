@@ -7,6 +7,11 @@
   }
 }
 
+.news-date {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .media-image {
   @include grid-column;
   padding-bottom: 1rem;
