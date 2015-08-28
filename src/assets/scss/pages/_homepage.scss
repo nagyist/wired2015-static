@@ -2,6 +2,16 @@
 	position: relative;
 	padding: 50px 0;
 	z-index: 2;
+
+	.button {
+		background: #fff;
+		color: $primary-color;
+	}
+
+	.button:hover {
+		background: $primary-color;
+		color: #fff;
+	}
 }
 
 .homepage-educate {
