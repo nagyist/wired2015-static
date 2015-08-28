@@ -1,25 +1,26 @@
 .footer {
-  background: $primary-color;
+  background: $white;
   padding: 2rem;
-  color: $white;
+  color: #333;
 
   .footer-heading {
-    color: $white;
+    color: #333;
 
     a {
-      color: $white;
+      color: #333;
     }
   }
 
   .footer-nav {
     list-style: none;
+    margin: 0;
   }
 
   li a {
-    color: $white;
+    color: #333;
   }
 
   .footer-addresses {
-    border-right: 1px solid $white;
+    border-right: 1px solid #333;
   }
 }

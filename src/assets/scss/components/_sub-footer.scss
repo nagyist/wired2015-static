@@ -1,13 +1,18 @@
 .sub-footer {
-  background: $secondary-color;
+  background: $white;
   padding: 2rem;
+  border-top: 1px solid #333; // remove when styling
 }
 
 .footer-inline-nav {
   @include inline-list;
-  margin: 0;
+  padding-top: 0.5rem;
+
+  li {
+    margin: 0 2rem 0 0;
+  }
 
   a {
-    color: $white;
+    color: #333;
   }
 }
