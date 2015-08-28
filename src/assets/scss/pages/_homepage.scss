@@ -149,8 +149,11 @@
 .homepage-map {
 	background: url('../img/backgrounds/map.jpg') center center no-repeat;
 	background-size: 100% auto;
+	background-size: cover;
+	padding-top: 1rem;
+	padding-bottom: 6rem;
 
-	@media #{$large-up} {
+	@media #{$medium-up} {
 		height: 530px;
 	}
 }
@@ -158,11 +161,18 @@
 .homepage-map-overlay {
 	background: #333;
 	color: white;
-	width: 381px;
 	padding: 1rem 2rem;
-	position: absolute;
-	top: 0;
-	right: 0;
+
+	@media #{$medium-up} {
+		width: 381px;
+		position: absolute;
+		top: 0;
+		right: 1rem;
+	}
+
+	@media #{$large-up} {
+		top: 1rem;
+	}
 
 	h2 {
 		color: white;
