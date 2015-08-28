@@ -1,15 +1,21 @@
 .sub-footer {
-  background: darken($primary-color, 5%);
-  padding: 2rem;
+  background: darken(#262527, 5%);
+  padding: 1.5rem;
 
   input {
-    margin: 0.9rem 0 0 0;
+    margin: 1rem 0 0 0;
+  }
+
+  @media #{$medium-up} {
+    padding: 1.5rem;
   }
 }
 
 .footer-social {
+  margin-left: 0;
+   
   li {
-    margin: 0.85rem 0 0 0;
+    margin: 0.95rem 0 0 0;
     display: inline-block;
   }
 
@@ -29,7 +35,7 @@
   }
 
   a {
-    color: lighten($primary-color, 50%);
+    color: lighten( #333235, 50%);
     font-weight: 100;
   }
 }

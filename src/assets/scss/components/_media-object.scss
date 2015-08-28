@@ -1,9 +1,11 @@
 .media {
   @include grid-row(nest);
+  padding-bottom: 4rem;
 }
 
 .media-image {
   @include grid-column;
+  padding-bottom: 1rem;
 
   @media #{$medium-up} {
     width: grid-calc(4, 12);
@@ -14,7 +16,9 @@
   @include grid-column;
 
   h4 {
-    margin-top: 0;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 1.2rem;
   }
 
   @media #{$medium-up} {

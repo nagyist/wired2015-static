@@ -37,8 +37,11 @@
   "foundation/components/offcanvas",
   "foundation/components/visibility";
 
+// Custom fonts
 @import 'fonts/edo';
 
+// Components
+@import 'components/typography';
 @import 'components/callout';
 @import 'components/footer';
 @import 'components/header';
@@ -49,6 +52,9 @@
 @import 'components/sub-footer';
 @import 'components/number-list';
 
+=======
+@import 'components/page-sidebar';
+@import 'components/timeline';
 
 // Pages
 @import 'pages/homepage';

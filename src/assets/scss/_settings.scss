@@ -200,7 +200,7 @@ $body-font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 $header-font-weight: 200;
 
-$header-font-family: 'Edo', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+// $header-font-family: 'Edo', 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 // $header-font-style: normal;
 // $header-font-color: $jet;
 // $header-line-height: 1.4;
@@ -970,7 +970,7 @@ $button-font-weight: 600;
 // $include-html-panel-classes: $include-html-classes;
 
 // We use these to control the background and border styles
-// $panel-bg: scale-color($white, $lightness: -5%);
+$panel-bg: #282828;
 // $panel-border-style: solid;
 // $panel-border-size: 1px;
 
