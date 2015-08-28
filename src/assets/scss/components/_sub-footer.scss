@@ -1,5 +1,5 @@
 .sub-footer {
-  background: darken($primary-color, 10%);
+  background: darken($primary-color, 5%);
   padding: 2rem;
 
   input {
@@ -29,6 +29,7 @@
   }
 
   a {
-    color: $white;
+    color: lighten($primary-color, 50%);
+    font-weight: 100;
   }
 }
