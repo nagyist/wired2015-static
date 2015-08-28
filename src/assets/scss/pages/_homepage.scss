@@ -1,0 +1,111 @@
+.homepage-section {
+	position: relative;
+	padding: 50px 0;
+	z-index: 2;
+}
+
+.homepage-educate {
+	padding-bottom: 150px;
+	h2 {
+		color: $primary-color;
+		font-size: 42px;
+		margin: 50px 0;
+		&::before {
+			content:'SEE';
+			font-size: 220px;
+			opacity: .2;
+			position: absolute;
+			top: -75px;
+			left: -50px;
+			transform: rotate(357deg) ;
+			-webkit-transform: rotate(354deg) ;
+			-moz-transform: rotate(354deg) ;
+			-o-transform: rotate(354deg) ;
+			-ms-transform: rotate(354deg) ;
+		}
+	}
+}
+
+.homepage-impact {
+	background: -moz-linear-gradient(0, #43a8c6 0%, #69c4d9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, top, bottom, color-stop(0%,#43a8c6), color-stop(100%,#69c4d9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(0, #43a8c6 0%,#69c4d9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(0, #43a8c6 0%,#69c4d9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0, #43a8c6 0%,#69c4d9 100%); /* IE10+ */
+	background: linear-gradient(0, #43a8c6 0%,#69c4d9 100%); /* W3C */
+
+	&::before {
+		content: '';
+		width: 110%;
+		height: 100px;
+		transform: rotate(358deg) ;
+		-webkit-transform: rotate(358deg) ;
+		-moz-transform: rotate(358deg) ;
+		-o-transform: rotate(358deg) ;
+		-ms-transform: rotate(358deg) ;
+		position: relative;
+		display: block;
+		background: #69c4d9; 
+		top: -100px;
+		z-index: 1;
+	}
+
+	h2 {
+			color: #fff;
+			font-size: 40px;
+			margin: 50px 0;
+			text-align: center;
+			&::before {
+				content:'Change';
+				font-size: 220px;
+				opacity: .2;
+				position: absolute;
+				top: -75px;
+				left: -50px;
+				transform: rotate(354deg) ;
+				-webkit-transform: rotate(354deg) ;
+				-moz-transform: rotate(354deg) ;
+				-o-transform: rotate(354deg) ;
+				-ms-transform: rotate(354deg) ;
+			}
+		}
+}
+
+.homepage-help {
+	background: #91aa49; /* Old browsers */
+	background: -moz-linear-gradient(0, #91aa49 0%, #b0c674 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear,top, bottom, color-stop(0%,#91aa49), color-stop(100%,#b0c674)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(0, #91aa49 0%,#b0c674 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(0, #91aa49 0%,#b0c674 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(0, #91aa49 0%,#b0c674 100%); /* IE10+ */
+	background: linear-gradient(0, #91aa49 0%,#b0c674 100%); /* W3C */
+
+	h2 {
+		color: #fff;
+		font-size: 40px;
+		margin: 50px 0;
+		text-align: center;
+		&::before {
+			content:'Fight';
+			font-size: 220px;
+			opacity: .2;
+			position: absolute;
+			top: -75px;
+			left: -50px;
+			transform: rotate(357deg) ;
+			-webkit-transform: rotate(354deg) ;
+			-moz-transform: rotate(354deg) ;
+			-o-transform: rotate(354deg) ;
+			-ms-transform: rotate(354deg) ;
+		}
+	}
+}
+
+.homepage-help, .homepage-impact {
+	color: #fff;
+	p, h3 {
+		color: #fff;
+	}
+}
+
+

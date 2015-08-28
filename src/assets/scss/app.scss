@@ -37,10 +37,17 @@
   "foundation/components/offcanvas",
   "foundation/components/visibility";
 
+@import 'fonts/edo';
+
 @import 'components/callout';
 @import 'components/footer';
 @import 'components/header';
+@import 'components/hero';
 @import 'components/media-object';
 @import 'components/page-header';
 @import 'components/segmented-control';
 @import 'components/sub-footer';
+
+
+// Pages
+@import 'pages/homepage';
