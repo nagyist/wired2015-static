@@ -13,6 +13,10 @@
 .media-text {
   @include grid-column;
 
+  h4 {
+    margin-top: 0;
+  }
+
   @media #{$medium-up} {
     width: grid-calc(8, 12);
   }
