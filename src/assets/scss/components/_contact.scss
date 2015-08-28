@@ -1,0 +1,33 @@
+.contact {
+
+}
+
+.contact-photo {
+  border-radius: 1000px;
+  margin-bottom: 0.5rem;
+}
+
+.contact-name {
+  color: $primary-color;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+
+  [class*="block-grid"] & {
+    font-size: 1.25rem;
+  }
+}
+
+.contact-text {
+  text-transform: uppercase;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.contact-email {
+  font-weight: bold;
+}
+
+// Targets only the big one
+.media.contact {
+  margin-top: 3rem;
+}
