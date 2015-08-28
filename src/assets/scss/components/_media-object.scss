@@ -16,7 +16,9 @@
   @include grid-column;
 
   h4 {
-    margin-top: 0;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 1.2rem;
   }
 
   @media #{$medium-up} {
