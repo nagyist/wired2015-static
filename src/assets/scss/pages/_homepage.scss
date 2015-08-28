@@ -33,6 +33,7 @@
 	background: -o-linear-gradient(0, #43a8c6 0%,#69c4d9 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(0, #43a8c6 0%,#69c4d9 100%); /* IE10+ */
 	background: linear-gradient(0, #43a8c6 0%,#69c4d9 100%); /* W3C */
+	padding-bottom: 150px;
 
 	&::before {
 		content: '';
@@ -79,6 +80,22 @@
 	background: -o-linear-gradient(0, #91aa49 0%,#b0c674 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(0, #91aa49 0%,#b0c674 100%); /* IE10+ */
 	background: linear-gradient(0, #91aa49 0%,#b0c674 100%); /* W3C */
+
+	&::before {
+		content: '';
+		width: 110%;
+		height: 100px;
+		transform: rotate(1deg) ;
+		-webkit-transform: rotate(1deg) ;
+		-moz-transform: rotate(1deg) ;
+		-o-transform: rotate(1deg) ;
+		-ms-transform: rotate(1deg) ;
+		position: relative;
+		display: block;
+		background: #b0c674; 
+		top: -100px;
+		z-index: 1;
+	}
 
 	h2 {
 		color: #fff;
