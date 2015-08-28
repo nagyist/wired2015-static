@@ -16,6 +16,10 @@
   @include grid-column;
   padding-bottom: 1rem;
 
+  img {
+    width: 100%;
+  }
+
   @media #{$medium-up} {
     width: grid-calc(4, 12);
   }
