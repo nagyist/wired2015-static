@@ -125,4 +125,36 @@
 	}
 }
 
+.homepage-map {
+	background: url('../img/backgrounds/map.jpg') center center no-repeat;
+	background-size: 100% auto;
 
+	@media #{$large-up} {
+		height: 530px;
+	}
+}
+
+.homepage-map-overlay {
+	background: #333;
+	color: white;
+	width: 381px;
+	padding: 1rem 2rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	h2 {
+		color: white;
+		font-size: rem-calc(28);
+		margin-bottom: 5px;
+	}
+
+	a {
+		color: $secondary-color;
+		// color: #e6a3ef;
+
+		&:hover {
+			color: #eee;
+		}
+	}
+}
