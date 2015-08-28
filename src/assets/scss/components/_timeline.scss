@@ -1,6 +1,7 @@
 .history-section {
 	background: #69c4d9;
 	margin-top: 150px;
+	overflow: hidden;
 
 	&::before {
 		content: '';
