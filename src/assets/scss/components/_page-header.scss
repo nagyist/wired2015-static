@@ -58,7 +58,7 @@
 
   @media #{$medium-up} {
     margin: 0;
-    padding-right: 410px;  
+    padding-right: 410px;
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -110,7 +110,7 @@
     }
   }
 
-  .current_page_item a {
+  .is-active a, .current_page_item a {
     background: black;
     color: white;
   }
