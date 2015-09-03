@@ -2,22 +2,7 @@
 	background: #69c4d9;
 	margin-top: 150px;
 	overflow: hidden;
-
-	&::before {
-		content: '';
-		width: 110%;
-		height: 150px;
-		transform: rotate(358deg);
-		-webkit-transform: rotate(358deg) ;
-		-moz-transform: rotate(358deg) ;
-		-o-transform: rotate(358deg) ;
-		-ms-transform: rotate(358deg) ;
-		position: relative;
-		display: block;
-		background: #69c4d9; 
-		top: -100px;
-		z-index: 1;
-	}
+	padding-top: 50px;
 
 	h3 {
 		color: #fff;
