@@ -60,3 +60,28 @@
 .footer-thanks {
   color: rgba(#fff, .6);
 }
+
+
+.menu-footer {
+  ul.main-nav-sub {
+    display: block;
+    position: static;
+    background: none;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    margin-left: 0;
+    padding: 0;
+    li {
+      padding: 0;
+    }
+    a {
+      color: #fff;
+    }
+  }
+  a {
+    color: #fff;
+  }
+}
+
+
